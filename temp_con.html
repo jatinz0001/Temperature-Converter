@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="temp_con.css">
+</head>
+<body>
+  <h2> Temperature Converter</h2>
+  
+  <div class="converter">
+    <input type="number" id="tempInput" placeholder="Enter value">
+    
+    <select id="fromUnit">
+      <option value="C">Celsius</option>
+      <option value="F">Fahrenheit</option>
+      <option value="K">Kelvin</option>
+    </select>
+    
+    to
+    
+    <select id="toUnit">
+      <option value="C">Celsius</option>
+      <option value="F">Fahrenheit</option>
+      <option value="K">Kelvin</option>
+    </select>
+    
+    <br>
+    <button onclick="convertTemp()">Convert</button>
+    
+    <div id="result"></div>
+  </div>
+
+ <footer>
+    © 2025 Jatin Mathur. All Rights Reserved.
+  </footer>
+
+  <script src="temp_con.js"></script>
+</body>
+</html>
